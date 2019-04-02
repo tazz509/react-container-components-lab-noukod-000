@@ -17,7 +17,7 @@ class LatestMovieReviewsContainer extends React.Component {
       .then(response => response.json())
       .then(data => {
         const temp1 = data.results
-        
+
         this.setState({
           reviews: temp1
         })
