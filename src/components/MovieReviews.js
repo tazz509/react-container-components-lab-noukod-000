@@ -17,7 +17,7 @@ const MovieReviews = ({reviews}) => (
     </div>) }
   </div>
 )
-  
+
 
 
 export default MovieReviews
