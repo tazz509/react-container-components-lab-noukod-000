@@ -32,13 +32,13 @@ class SearchableMovieReviewsContainer extends React.Component {
       .then(response => response.json())
       .then(data => {
         const temp2 = data.results
-        
+
         this.setState({
           reviews: temp2
         })
       })
 
-    
+
   }
 
   render() {
